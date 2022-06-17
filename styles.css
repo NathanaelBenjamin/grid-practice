@@ -158,6 +158,18 @@ header{
     color: #014246;
 }
 
+@media screen and (max-width: 599px) {
+    .flex-container{
+        margin: 6rem 0 0;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .card{
+        width: 68%;
+    }
+}
+
 
 
 
