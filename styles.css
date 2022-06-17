@@ -94,7 +94,7 @@ header{
 }
 
 .card{
-    height: 65vh;
+    height: max(65vh, 100%);
     padding: 3rem 1.9rem;
     border-radius: .1rem;
     display: flex;
@@ -125,6 +125,8 @@ header{
     border: 0;
     cursor: pointer;
     margin: .9rem 0 0;
+    font-size: .7rem;
+    font-weight: 600;
 }
 
 .btn:hover{
@@ -150,6 +152,10 @@ header{
 
 .sedans .btn{
     color: #cf8805;
+}
+
+.luxury .btn{
+    color: #014246;
 }
 
 
